@@ -1,0 +1,1058 @@
+﻿@model Service2TheRescue.Models.Salesforce.UserInfo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>UserInfo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CompanyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CompanyName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Division)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Division)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Department)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Department)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Street)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Street)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.State)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.State)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PostalCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PostalCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Latitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Latitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Longitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Longitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailPreferencesAutoBcc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailPreferencesAutoBcc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailPreferencesAutoBccStayInTouch)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailPreferencesAutoBccStayInTouch)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailPreferencesStayInTouchReminder)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailPreferencesStayInTouchReminder)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SenderEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SenderEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SenderName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SenderName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Signature)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Signature)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StayInTouchSubject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StayInTouchSubject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StayInTouchSignature)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StayInTouchSignature)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StayInTouchNote)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StayInTouchNote)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fax)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fax)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MobilePhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MobilePhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Alias)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Alias)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CommunityNickname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CommunityNickname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsBadged)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsBadged)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BadgeText)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BadgeText)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TimeZoneSidKey)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TimeZoneSidKey)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserRoleId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserRoleId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LocaleSidKey)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LocaleSidKey)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReceivesInfoEmails)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReceivesInfoEmails)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReceivesAdminInfoEmails)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReceivesAdminInfoEmails)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailEncodingKey)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailEncodingKey)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProfileId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProfileId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LanguageLocaleKey)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LanguageLocaleKey)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmployeeNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmployeeNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DelegatedApproverId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DelegatedApproverId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ManagerId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ManagerId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastLoginDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastLoginDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastPasswordChangeDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastPasswordChangeDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedById)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedById)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastModifiedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastModifiedById)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastModifiedById)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SystemModstamp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SystemModstamp)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OfflineTrialExpirationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OfflineTrialExpirationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OfflinePdaTrialExpirationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OfflinePdaTrialExpirationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsMarketingUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsMarketingUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsOfflineUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsOfflineUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsCallCenterAutoLogin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsCallCenterAutoLogin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsMobileUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsMobileUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsSFContentUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsSFContentUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsKnowledgeUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsKnowledgeUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsInteractionUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsInteractionUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsSupportUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsSupportUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsJigsawProspectingUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsJigsawProspectingUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsSiteforceContributorUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsSiteforceContributorUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsSiteforcePublisherUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsSiteforcePublisherUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsChatterAnswersUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsChatterAnswersUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPermissionsWorkDotComUserFeature)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPermissionsWorkDotComUserFeature)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ForecastEnabled)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ForecastEnabled)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesActivityRemindersPopup)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesActivityRemindersPopup)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesEventRemindersCheckboxDefault)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesEventRemindersCheckboxDefault)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesTaskRemindersCheckboxDefault)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesTaskRemindersCheckboxDefault)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesReminderSoundOff)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesReminderSoundOff)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableAllFeedsEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableAllFeedsEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableFollowersEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableFollowersEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableProfilePostEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableProfilePostEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableChangeCommentEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableChangeCommentEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableLaterCommentEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableLaterCommentEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisProfPostCommentEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisProfPostCommentEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesContentNoEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesContentNoEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesContentEmailAsAndWhen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesContentEmailAsAndWhen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesApexPagesDeveloperMode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesApexPagesDeveloperMode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesHideCSNGetChatterMobileTask)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesHideCSNGetChatterMobileTask)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableMentionsPostEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableMentionsPostEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisMentionsCommentEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisMentionsCommentEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesHideCSNDesktopTask)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesHideCSNDesktopTask)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesHideChatterOnboardingSplash)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesHideChatterOnboardingSplash)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesHideSecondChatterOnboardingSplash)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesHideSecondChatterOnboardingSplash)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisCommentAfterLikeEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisCommentAfterLikeEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableLikeEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableLikeEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableMessageEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableMessageEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesJigsawListUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesJigsawListUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableBookmarkEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableBookmarkEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableSharePostEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableSharePostEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesEnableAutoSubForFeeds)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesEnableAutoSubForFeeds)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableFileShareNotificationsForApi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableFileShareNotificationsForApi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowTitleToExternalUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowTitleToExternalUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowManagerToExternalUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowManagerToExternalUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowEmailToExternalUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowEmailToExternalUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowWorkPhoneToExternalUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowWorkPhoneToExternalUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowMobilePhoneToExternalUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowMobilePhoneToExternalUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowFaxToExternalUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowFaxToExternalUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowStreetAddressToExternalUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowStreetAddressToExternalUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowCityToExternalUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowCityToExternalUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowStateToExternalUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowStateToExternalUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowPostalCodeToExternalUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowPostalCodeToExternalUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowCountryToExternalUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowCountryToExternalUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowProfilePicToGuestUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowProfilePicToGuestUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowTitleToGuestUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowTitleToGuestUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowCityToGuestUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowCityToGuestUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowStateToGuestUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowStateToGuestUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowPostalCodeToGuestUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowPostalCodeToGuestUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesShowCountryToGuestUsers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesShowCountryToGuestUsers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableFeedbackEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableFeedbackEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableWorkEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableWorkEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesHideS1BrowserUI)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesHideS1BrowserUI)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesDisableEndorsementEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesDisableEndorsementEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPreferencesLightningExperiencePreferred)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPreferencesLightningExperiencePreferred)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AccountId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccountId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CallCenterId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CallCenterId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Extension)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Extension)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FederationIdentifier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FederationIdentifier)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AboutMe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AboutMe)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FullPhotoUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FullPhotoUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SmallPhotoUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SmallPhotoUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DigestFrequency)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DigestFrequency)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DefaultGroupNotificationFrequency)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DefaultGroupNotificationFrequency)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JigsawImportLimitOverride)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JigsawImportLimitOverride)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastViewedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastViewedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastReferencedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastReferencedDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
